@@ -1,0 +1,48 @@
+nasmespace Media_aluno
+{
+class program
+{
+    static void main(string[] args)
+
+    {
+        
+        double nota01,nota02,nota03,media,nome;
+        
+         console.WriteLine("Digite seu nome: ");
+        nome = convert.Todouble(Console.Radline());
+
+        console.WriteLine("Digite sua primeira nota: ");
+        nota01 = convert.Todouble(Console.Radline());
+
+         console.WriteLine("Digite sua segunda nota: ");
+        nota02 = convert.Todouble(Console.Radline());
+
+         console.WriteLine("Digite sua terceira nota: ");
+        nota03 = convert.Todouble(Console.Radline());
+
+         console.WriteLine("Digite sua quarta nota: ");
+        nota04 = convert.Todouble(Console.Radline());
+
+        Media = (nota01 + nota02 + nota03 + )/ 3;
+
+        if (media >= 7)
+        {
+            console.WriteLine("Aluno aprovado");
+        }
+
+        else if(media > 3 "ou" <= 6)
+        {
+          console.WriteLine("ADF");
+
+        }
+
+        else if(media <= 3)
+        {
+          console.WriteLine("Aluno reprova");
+
+        }
+       
+       console.WriteLine();
+
+      }
+  }   
